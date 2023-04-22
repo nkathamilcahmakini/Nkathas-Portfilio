@@ -38,7 +38,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 
 };
-/*===================scroll reveal====================*/
+/*===================scroll reveal===========================*/
 ScrollReveal({ 
     // reset: true,
     distance: '80px',
@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
-/*===================typed js====================*/
+/*===================typed js===========================*/
 const typed = new Typed('.multiple-text',{
     strings: ['Software Developer', 'Youtuber', 'Blogger'],
     typeSpeed: 100,
